@@ -1,0 +1,13 @@
+package chapter_01;
+
+public class _Quiz_01 {
+    public static void main(String[] args) {
+        String busNember= "상암08";
+        int leftOver_Time = 3;
+        float leftOver_Street = 1.2f;
+        System.out.println(busNember + "번 버스");
+        System.out.println("약 " + leftOver_Time + "분 후 도착");
+        System.out.println("남은 거리 " + leftOver_Street + "km");
+
+    }
+}
